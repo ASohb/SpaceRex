@@ -111,7 +111,7 @@ function draw(){
   text("Pontuação: "+score, 500, 20);
 
   // Verificar se o score é maior ou igual a 200
-  if(score >= 200){
+  if(score >= 500){
       gameState = WIN;
   }
 
